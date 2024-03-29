@@ -2,7 +2,7 @@
 
 Clone the repository using git:
 Bash
-git clone https://github.com/kamalmagra/loginpage.git
+git clone https://github.com/kamalmagra/loginwithpage.git
 Use code with caution.
 Create a database named test_db on your MySQL server.
 Create a file named db_conn.php inside the project directory with your database connection details.
