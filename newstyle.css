@@ -1,0 +1,104 @@
+        body {
+            background: rgb(238, 174, 202);
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(237, 174, 202, 1) 15%, rgba(148, 187, 233, 1) 92%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        
+        * {
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+        
+        form {
+            width: 500px;
+            border: 2px solid #ccc;
+            padding: 30px;
+            background: #fff;
+            border-radius: 15px;
+        }
+        
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        input {
+            display: block;
+            border: 2px solid #ccc;
+            width: 95%;
+            padding: 10px;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+        
+        label {
+            color: #888;
+            font-size: 18px;
+            padding: 10px;
+        }
+        
+        button {
+            float: unset;
+            background: #555;
+            padding: 10px 15px;
+            color: #fff;
+            border-radius: 5px;
+            margin-right: 10px;
+            border: none;
+        }
+        
+        .btnl {
+            margin-left: 135px;
+        }
+        
+        .btnr {
+            margin-right: 115px;
+        }
+        
+        .btnsl {
+            float: unset;
+            background: #555;
+            padding: 10px 15px;
+            color: #fff;
+            border-radius: 5px;
+            margin-right: 10px;
+            border: none;
+            margin-left: 175px;
+        }
+        
+        button:hover {
+            opacity: .7;
+        }
+        
+        .error {
+            background: #F2DEDE;
+            color: #A94442;
+            padding: 10px;
+            width: 95%;
+            border-radius: 5px;
+            margin: 20px auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+        }
+        
+        .linked {
+            float: right;
+            background: #555;
+            padding: 10px 15px;
+            color: #fff;
+            border-radius: 5px;
+            margin-right: 10px;
+            border: none;
+            text-decoration: none;
+        }
+        
+        .linked:hover {
+            opacity: .7;
+        }
